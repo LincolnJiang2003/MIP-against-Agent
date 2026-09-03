@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "MIP against Agent: reference implementation"
+type: software
+version: 0.1.0
+authors:
+  - given-names: Lukas
+    family-names: Aichberger
+preferred-citation:
+  type: conference-paper
+  title: "MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents"
+  authors:
+    - given-names: Lukas
+      family-names: Aichberger
+    - given-names: Alasdair
+      family-names: Paren
+    - given-names: Guohao
+      family-names: Li
+    - given-names: "Philip H. S."
+      family-names: Torr
+    - given-names: Yarin
+      family-names: Gal
+    - given-names: Adel
+      family-names: Bibi
+  year: 2025
+  conference:
+    name: "39th Conference on Neural Information Processing Systems (NeurIPS 2025)"
+  collection-title: "Advances in Neural Information Processing Systems"
+  volume: "38"
+  doi: "10.52202/085713-0625"
+  url: "https://papers.neurips.cc/paper_files/paper/2025/hash/1add4b4f8373c64504cfe4a3054700a1-Abstract-Conference.html"

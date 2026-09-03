@@ -1,0 +1,38 @@
+{
+    "file_explorer": [
+        "e27984c7-968c-48d7-b2c3-6e45cdcc5249-WOS"
+    ],
+    "libreoffice_calc": [
+        "04d9aeaf-7bed-4024-bedb-e10e6f00eb7f-WOS"
+    ],
+    "notepad": [
+        "a7d4b6c5-569b-452e-9e1d-ffdb3d431d15-WOS"
+    ],
+    "chrome": [
+        "7a5a7856-f1b6-42a4-ade9-1ca81ca0f263-wos"
+    ],
+    "microsoft_paint": [
+        "15f8de6e-3d39-40e4-af17-bdbb2393c0d9-WOS"
+    ],
+    "libreoffice_writer": [
+        "4bcb1253-a636-4df4-8cb0-a35c04dfef31-WOS"
+    ],
+    "settings": [
+        "46adf721-2949-4426-b069-010b7c128d8f-wos"
+    ],
+    "vs_code": [
+        "e2b5e914-ffe1-44d2-8e92-58f8c5d92bb2-WOS"
+    ],
+    "msedge": [
+        "1a1ec621-b675-4099-96a9-f702dc27afb4-wos"
+    ],
+    "vlc": [
+        "INF-0d95d28a-9587-433b-a805-1fbe5467d598-WOS"
+    ],
+    "windows_calc": [
+        "28b91a24-5d97-4c2a-891c-dccbd3820c62-WOS-3"
+    ],
+    "clock": [
+        "02F10F89-7171-4D37-8550-A00BA8930CDF-2-WOS"
+    ]
+}

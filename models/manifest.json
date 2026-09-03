@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "files": {
+    "GroundingDINO/groundingdino_swint_ogc.pth": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799",
+    "OmniParser/icon_caption_florence/config.json": "e007cec0964325bd954d27a5630b6014887c883031e4d40efad248f71c570368",
+    "OmniParser/icon_caption_florence/generation_config.json": "14ab95a544c32907ce4ddb5dfb905634a55be9b50d1300ac89004674427563eb",
+    "OmniParser/icon_caption_florence/model.safetensors": "c0d7a6bedf8c6dbabe7d40b9f78ada36e78c1a93617506bc06a93279a78dfb14",
+    "OmniParser/icon_detect/model.pt": "1213b4c23aef661811497796622dec411f2a4e0abc510a2a4304ddca8febe55c",
+    "OmniParser/icon_detect/model.safetensors": "84caa6c7e0607d7d6edddb46f2affd0d0d86ddf34e71fbcce7b4ba461bd97574",
+    "OmniParser/icon_detect/model.yaml": "adb1fbac524d6dac8da049ed4bef180e180d4a056f8fcad459c93fe0cb2a54d9"
+  },
+  "local_files": {
+    "arial.ttf": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833"
+  },
+  "sources": {
+    "GroundingDINO": {
+      "repo_id": "ShilongLiu/GroundingDINO",
+      "revision": "a94c9b567a2a374598f05c584e96798a170c56fb"
+    },
+    "OmniParser": {
+      "repo_id": "microsoft/OmniParser",
+      "revision": "9a02350f935534e9c9c29d0e6f28e4d1aff36a5c"
+    }
+  }
+}

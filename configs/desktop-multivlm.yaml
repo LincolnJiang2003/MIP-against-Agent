@@ -1,0 +1,70 @@
+schema_version: 1
+name: desktop-multivlm
+seed: 42
+output_dir: ../runs
+model_dir: ../models
+
+data:
+  examples_dir: ../data/examples
+  training_prompt_manifest: ../data/splits/train.json
+  evaluation_prompt_manifest: ../data/splits/eval.json
+  screen_pattern: ../data/screens/desktop/screenshot_benign_image_04_icons{screen_id:02d}.png
+  training_screen_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  evaluation_screen_ids: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  window_title: Desktop
+  window_names: ""
+
+agent:
+  models:
+    - Llama-3.2-11B-Vision-Instruct
+    - Llama-3.2-11B-Vision
+    - Llama-3.2-90B-Vision-Instruct
+  model_revisions:
+    Llama-3.2-11B-Vision-Instruct: 9eb2daaa8597bf192a8b0e73f848f3a102794df5
+    Llama-3.2-11B-Vision: 3f2e93603aaa5dd142f27d34b06dfa2b6e97b8be
+    Llama-3.2-90B-Vision-Instruct: e305d2a43a4adc6987308fe7d896fb8ec5f1a5d8
+    Llama-3.2-90B-Vision: 38850089f6a42b7394680c4e4bbd4c40fb62404f
+  som_origin: omni
+  oss_box_threshold: 0.12
+  use_annotated_screen_only: true
+  prepare_text_images_individually: false
+  gpu_memory_reserve_gib: 2
+
+target:
+  file: targets/memory.txt
+
+# Paper: jointly craft on three VLMs and evaluate the fourth unseen VLM
+craft:
+  attack: universal
+  parser_origins: [omni, mixed-omni]
+  load_adversarial_patch: false
+  crop_patch_from_image: true
+  max_num_patch_positions: 1
+  resized_values: false
+  adv_patch_size: [1000, 1000]
+  adv_x_area: [1120, 2120]
+  adv_y_area: [530, 1530]
+  adv_optimizer: adam
+  adv_lr: 0.01
+  betas: [0.9, 0.9]
+  increased_betas: [0.95, 0.95]
+  termination_likelihood: 0.99
+  random_pert_intensity: 0.0
+  settings_per_update: 8
+  max_optimizer_steps: 100000
+  checkpoint_interval: 10
+  resume: true
+  reset_betas_on_collapse: false
+  epsilon: 0.1
+  center_constraint_clipping_factor: 1.3
+  keep_specific_color: false
+
+evaluation:
+  models:
+    - Llama-3.2-11B-Vision-Instruct
+    - Llama-3.2-11B-Vision
+    - Llama-3.2-90B-Vision-Instruct
+    - Llama-3.2-90B-Vision
+  parser_origins: [omni, oss]
+  temperatures: [1.0, 0.5, 0.1, 0.0]
+  num_sampled_generations: 5

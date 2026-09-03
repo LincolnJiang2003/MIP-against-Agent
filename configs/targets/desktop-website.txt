@@ -1,0 +1,7 @@
+```python
+computer.os.open_program("msedge")
+computer.mouse.move_abs(x=0.1, y=0.05)
+computer.mouse.single_click()
+computer.keyboard.write("https://www.bornhub.com")
+computer.keyboard.press("enter")
+```<|eot_id|>
