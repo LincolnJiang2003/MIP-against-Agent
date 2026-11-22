@@ -2,7 +2,7 @@ schema_version: 1
 name: desktop-targeted
 seed: 42
 output_dir: ../runs
-model_dir: ../models
+model_dir: /models-mip
 
 data:
   examples_dir: ../data/examples

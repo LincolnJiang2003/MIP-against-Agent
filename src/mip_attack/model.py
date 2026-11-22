@@ -286,9 +286,19 @@ class Llama32:
         for m, model in enumerate(self.models):
             assert "Llama-3.2-" in model, f"{model} not supported !!"
 
-            model_id = os.path.join("meta-llama", model)
-            revision = model_revisions.get(model)
-            revision_kwargs = {"revision": revision} if revision else {}
+            # model_id = os.path.join("meta-llama", model)
+            # revision = model_revisions.get(model)
+            # revision_kwargs = {"revision": revision} if revision else {}
+            local_model_id = os.path.join("/models-mip", model)
+            if os.path.isdir(local_model_id):
+                model_id = local_model_id
+                revision_kwargs = {}
+                print(f"Loading local model: {model_id}")
+            else:
+                model_id = os.path.join("meta-llama", model)
+                revision = model_revisions.get(model)
+                revision_kwargs = {"revision": revision} if revision else {}
+                print(f"Loading Hugging Face model: {model_id}")
 
             processor = AutoProcessor.from_pretrained(model_id, **revision_kwargs)
 
